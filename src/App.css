@@ -1,5 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@import "leaflet/dist/leaflet.css";
 
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
