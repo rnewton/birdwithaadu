@@ -4,3 +4,12 @@
   bottom: 0;
   width: 100%;
 }
+
+.leaflet-popup-content-wrapper {
+  border-radius: 0;
+  border: 2px black solid;
+  box-shadow: 8px 8px #213b67;
+}
+.leaflet-popup-tip {
+  display: none;
+}
