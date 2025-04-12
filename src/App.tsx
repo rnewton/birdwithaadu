@@ -1,47 +1,37 @@
+import L from 'leaflet';
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+
+import "leaflet/dist/leaflet.css";
 import "./App.css";
+
+// Fix marker icon issue
+import icon from 'leaflet/dist/images/marker-icon.png';
+import iconShadow from 'leaflet/dist/images/marker-shadow.png';
+
+const DefaultIcon = L.icon({
+  iconSize: [25, 41],
+  iconAnchor: [10, 41],
+  popupAnchor: [2, -40],
+  iconUrl: icon,
+  shadowUrl: iconShadow,
+});
+
+L.Marker.prototype.options.icon = DefaultIcon;
 
 function App() {
   return (
-    <div className="placeholder">
-      <img src="/public/quetzal-construction.jpg" alt="Quetzal with a Hard Hat" />
-      <div>
-        <h1>Bird with Aadu is under construction. Check back soon!</h1>
-        <p>
-          Original image by Flickr user
-          <a
-            rel="nofollow"
-            href="https://www.flickr.com/photos/chdwckvnstrsslhm/"
-          >
-            chdwckvnstrsslhm
-          </a>
-          . Photo uploaded to commons by user
-          <a
-            href="//commons.wikimedia.org/wiki/User:Ltshears"
-            title="User:Ltshears"
-          >
-            ltshears
-          </a>
-          - Flickr
-          <a
-            rel="nofollow"
-            href="https://www.flickr.com/photos/chdwckvnstrsslhm/128203201/"
-          >
-            here
-          </a>
-          ,
-          <a
-            href="https://creativecommons.org/licenses/by/2.0"
-            title="Creative Commons Attribution 2.0"
-          >
-            CC BY 2.0
-          </a>
-          ,
-          <a href="https://commons.wikimedia.org/w/index.php?curid=1833937">
-            Link
-          </a>
-        </p>
-      </div>
-    </div>
+    <MapContainer className="map-container" center={[47.60, -122.33]} zoom={11} scrollWheelZoom={false}>
+      <TileLayer
+        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        url="https://tiles.stadiamaps.com/tiles/stamen_terrain_background/{z}/{x}/{y}.png"
+        // Basic map: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+      />
+      <Marker position={[47.60, -122.33]}>
+        <Popup>
+          Bird with Aadu is under construction. <br /> Please check back later.
+        </Popup>
+      </Marker>
+    </MapContainer>
   );
 }
 
