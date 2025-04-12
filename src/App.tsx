@@ -3,7 +3,7 @@ import "./App.css";
 function App() {
   return (
     <div className="placeholder">
-      <img src="/public/quetzal-construction.jpg" alt="Quetzal with a Hard Hat" />
+      <img src="/quetzal-construction.jpg" alt="Quetzal with a Hard Hat" />
       <div>
         <h1>Bird with Aadu is under construction. Check back soon!</h1>
         <p>
