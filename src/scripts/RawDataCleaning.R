@@ -74,9 +74,9 @@ df <- datacenters %>%
   select(Country,State,unit.x,Year,Common.Name,Scientific.Name,Count,
          County,Location,Observation.Details,Checklist.Comments,geometry) %>%
   group_by(Country,State,County,unit.x,Year,Common.Name,Scientific.Name) %>%
-  summarize(total = sum(Count), ObsComments = paste0(Observation.Details, collapse = ";"),
-            ChecklistComments = paste0(Checklist.Comments, collapse = ";"),
-            Locations = paste0(Location, collapse = ";")) %>%
+  summarize(total = sum(Count), ObsComments = paste0(Observation.Details, collapse = ""),
+            ChecklistComments = paste0(Checklist.Comments, collapse = ""),
+            Locations = paste0(Location, collapse = "")) %>%
   arrange(unit.x,Country,State,County,Year,Common.Name) %>%
   st_cast("POINT")                              #this is causing a warning to appear so check but seems okay
 df$UTM1 <-  st_coordinates(df)[,1]

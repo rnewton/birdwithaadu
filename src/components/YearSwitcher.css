@@ -1,0 +1,11 @@
+.year-switcher {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  margin: 20px;
+
+  pointer-events: unset;
+}

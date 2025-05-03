@@ -9,7 +9,14 @@
   border-radius: 0;
   border: 2px black solid;
   box-shadow: 8px 8px #213b67;
+
+  min-width: 500px;
 }
+.leaflet-popup-content {
+  width: 95% !important;
+  margin: 0;
+}
+
 .leaflet-popup-tip {
   display: none;
 }

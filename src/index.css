@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-  themes: light --default, retro;
+  themes: luxury --default;
 }
 
 :root {

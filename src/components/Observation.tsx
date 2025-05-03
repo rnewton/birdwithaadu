@@ -6,7 +6,7 @@ import "./Observation.css";
 type ObservationProps = {
   commonName: string;
   scientificName: string;
-  firstSeen: string;
+  firstSeen: number;
   totalSeen: number;
   notes: string;
   images: string[];
@@ -28,7 +28,7 @@ function Observation({
       </div>
       <div className="stats">
         <p
-          className="badge badge-outline badge-primary tooltip"
+          className="badge badge-outline badge-accent tooltip"
           data-tip="First seen"
         >
           {firstSeen}
@@ -40,7 +40,7 @@ function Observation({
           {totalSeen}
         </p>
         {notes && (
-          <div className="tooltip" data-tip={notes}>
+          <div className="tooltip tooltip-right" data-tip={notes}>
             <FaNoteSticky />
           </div>
         )}
