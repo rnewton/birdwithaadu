@@ -1,6 +1,3 @@
-import { FaCamera } from "react-icons/fa6";
-import { FaNoteSticky } from "react-icons/fa6";
-
 import "./Observation.css";
 
 type ObservationProps = {
@@ -15,10 +12,8 @@ type ObservationProps = {
 function Observation({
   commonName,
   scientificName,
-  firstSeen,
   totalSeen,
   notes,
-  images,
 }: ObservationProps) {
   return (
     <div className="observation">
