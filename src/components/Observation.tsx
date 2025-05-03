@@ -23,32 +23,29 @@ function Observation({
   return (
     <div className="observation">
       <div>
-        <h2 className="common-name">{commonName}</h2>
-        <span className="sci-name">{scientificName}</span>
-      </div>
-      <div className="stats">
-        <p
-          className="badge badge-outline badge-accent tooltip"
-          data-tip="First seen"
-        >
-          {firstSeen}
-        </p>
-        <p
+        <h2 className="common-name">
+          {commonName}
+          <span
           className="badge badge-outline badge-secondary tooltip"
-          data-tip="Total seen"
+          data-tip="Total observed"
         >
           {totalSeen}
-        </p>
+        </span>
+        </h2>
+        <span className="sci-name">{scientificName}</span>
+        
+      </div>
+      <div className="stats">        
         {notes && (
-          <div className="tooltip tooltip-right" data-tip={notes}>
-            <FaNoteSticky />
+          <div>
+            {notes}
           </div>
         )}
-        {images.length > 0 && (
+        {/* {images.length > 0 && (
           <div className="tooltip" data-tip="View images (soon)">
             <FaCamera />
           </div>
-        )}
+        )} */}
       </div>
     </div>
   );

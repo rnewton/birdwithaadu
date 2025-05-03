@@ -13,13 +13,19 @@
   font-weight: 600;
   margin-bottom: 0;
 }
+.common-name span {
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 800;
+  vertical-align: bottom;
+}
 .sci-name {
   font-size: 0.8rem;
   font-weight: 200;
   padding-left: 0.5rem;
 }
 .stats {
-  height: 2rem;
+  margin-top: 0.5rem;
   padding-left: 0.5rem;
 
   display: flex;
