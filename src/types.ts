@@ -13,6 +13,7 @@ export type Observation = {
   // Locations: string;
   lon: number;
   lat: number;
+  ebirdURL: string;
 };
 
 export type LatLon = [number, number];

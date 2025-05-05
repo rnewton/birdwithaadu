@@ -33,16 +33,16 @@ function App() {
   const [data, setData] = useState<GroupedObservations>(new Map());
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("/data/SummedData_SiteYearSpecies.csv");
+      const response = await fetch("/data/summary.csv");
       const text = await response.text();
-      const parsedData = Papa.parse(text, {
+      const parsedData = Papa.parse<Observation>(text, {
         header: true,
         skipEmptyLines: true,
         dynamicTyping: true,
       });
 
       // Iterate over the list and group the observations by year and lat/lon
-      const groupedData = (parsedData.data as Observation[]).reduce(
+      const groupedData = parsedData.data.reduce(
         (acc: GroupedObservations, row: Observation) => {
           if (!acc.has(row.firstSeen)) {
             acc.set(row.firstSeen, new Map());

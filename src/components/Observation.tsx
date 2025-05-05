@@ -7,6 +7,7 @@ type ObservationProps = {
   totalSeen: number;
   notes: string;
   images: string[];
+  ebirdURL: string;
 };
 
 function Observation({
@@ -14,12 +15,13 @@ function Observation({
   scientificName,
   totalSeen,
   notes,
+  ebirdURL,
 }: ObservationProps) {
   return (
     <div className="observation">
       <div>
         <h2 className="common-name">
-          {commonName}
+          <a href={ebirdURL} target="_blank" rel="nofollow,noreferrer">{commonName}</a>
           <span
           className="badge badge-outline badge-secondary tooltip"
           data-tip="Total observed"
