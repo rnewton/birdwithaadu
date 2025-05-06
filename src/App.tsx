@@ -78,7 +78,7 @@ function App() {
           <Popup
             className="observations-container"
             minWidth={250}
-            maxWidth={screenWidth * 0.75}
+            maxWidth={screenWidth > 768 ? 400 : screenWidth * 0.75}
           >
             <Observations
               key={key}
