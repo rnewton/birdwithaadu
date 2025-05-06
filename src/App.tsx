@@ -2,17 +2,19 @@ import { useEffect, useState } from "react";
 import { MapContainer, TileLayer, Popup } from "react-leaflet";
 import Papa from "papaparse";
 
-import "leaflet/dist/leaflet.css";
-import "./App.css";
-
 import {
-  Observation,
-  GroupedObservations,
-  latLonKey,
-} from "./types";
+  DEFAULT_CENTER,
+  DEFAULT_ZOOM,
+  TILE_ATTRIBUTION,
+  TILE_URL,
+} from "./constants";
+import { Observation, GroupedObservations, latLonKey } from "./types";
 import Observations from "./components/Observations";
 import YearSwitcher from "./components/YearSwitcher";
 import Marker from "./components/Marker";
+
+import "leaflet/dist/leaflet.css";
+import "./App.css";
 
 function App() {
   // Fetch the csv data once during the first render
@@ -50,19 +52,20 @@ function App() {
     fetchData();
   }, []);
 
+  const screenWidth = window.innerWidth;
+
   const [year, selectYear] = useState<number>(data.keys().next().value || 2025);
 
   return (
     <MapContainer
       className="map-container"
-      center={[47.6, -122.33]}
-      zoom={11}
+      center={DEFAULT_CENTER}
+      zoom={DEFAULT_ZOOM}
       worldCopyJump
     >
       <TileLayer
-        attribution='&copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-        // Alt map: "https://tiles.stadiamaps.com/tiles/stamen_terrain_background/{z}/{x}/{y}.png"
+        attribution={TILE_ATTRIBUTION}
+        url={TILE_URL}
       />
       <YearSwitcher
         years={Array.from(data.keys())}
@@ -75,7 +78,7 @@ function App() {
           <Popup
             className="observations-container"
             minWidth={250}
-            maxWidth={600}
+            maxWidth={screenWidth * 0.75}
           >
             <Observations
               key={key}

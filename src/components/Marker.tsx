@@ -3,6 +3,7 @@ import L from "leaflet";
 import { useMap, Marker as LM } from "react-leaflet";
 import { FaBinoculars } from "react-icons/fa6";
 
+import { DEFAULT_ANIMATION_OPTIONS, DEFAULT_ZOOM } from "../constants";
 import { keysToLatLon } from "../types";
 
 import "./Marker.css";
@@ -35,10 +36,7 @@ function Marker({ children, positionKey }: MarkerProps) {
         click: (e) => {
           const zoom = map.getZoom();
 
-          map.flyTo(e.target.getLatLng(), zoom < 11 ? 11 : zoom, {
-            animate: true,
-            duration: 0.5,
-          });
+          map.flyTo(e.target.getLatLng(), zoom < DEFAULT_ZOOM ? DEFAULT_ZOOM : zoom, DEFAULT_ANIMATION_OPTIONS);
         },
       }}
     >
