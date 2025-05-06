@@ -1,8 +1,5 @@
 import { useEffect, useState } from "react";
-import L from "leaflet";
-import { MapContainer, TileLayer, Popup, Marker } from "react-leaflet";
-import icon from "leaflet/dist/images/marker-icon.png";
-import iconShadow from "leaflet/dist/images/marker-shadow.png";
+import { MapContainer, TileLayer, Popup } from "react-leaflet";
 import Papa from "papaparse";
 
 import "leaflet/dist/leaflet.css";
@@ -12,21 +9,10 @@ import {
   Observation,
   GroupedObservations,
   latLonKey,
-  keysToLatLon,
 } from "./types";
 import Observations from "./components/Observations";
 import YearSwitcher from "./components/YearSwitcher";
-
-// Fix marker icon issue
-const DefaultIcon = L.icon({
-  iconSize: [25, 41],
-  iconAnchor: [10, 41],
-  popupAnchor: [2, -40],
-  iconUrl: icon,
-  shadowUrl: iconShadow,
-});
-
-L.Marker.prototype.options.icon = DefaultIcon;
+import Marker from "./components/Marker";
 
 function App() {
   // Fetch the csv data once during the first render
@@ -66,12 +52,15 @@ function App() {
 
   const [year, selectYear] = useState<number>(data.keys().next().value || 2025);
 
-  console.log(data);
-
   return (
-    <MapContainer className="map-container" center={[47.6, -122.33]} zoom={11} worldCopyJump>
+    <MapContainer
+      className="map-container"
+      center={[47.6, -122.33]}
+      zoom={11}
+      worldCopyJump
+    >
       <TileLayer
-        attribution='&copy; <a href="https://www.stadiamaps.com/" target="_blank">Stadia Maps</a> &copy; <a href="https://www.stamen.com/" target="_blank">Stamen Design</a> &copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        attribution='&copy; <a href="https://openmaptiles.org/" target="_blank">OpenMapTiles</a> &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         // Alt map: "https://tiles.stadiamaps.com/tiles/stamen_terrain_background/{z}/{x}/{y}.png"
       />
@@ -82,8 +71,12 @@ function App() {
       />
 
       {Array.from(data.get(year)?.keys() ?? []).map((key: string) => (
-        <Marker position={keysToLatLon(key)}>
-          <Popup className="observations-container">
+        <Marker key={key} positionKey={key}>
+          <Popup
+            className="observations-container"
+            minWidth={250}
+            maxWidth={600}
+          >
             <Observations
               key={key}
               observations={data.get(year)?.get(key) || []}

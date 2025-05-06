@@ -13,6 +13,7 @@ function YearSwitcher({ years, selectedYear, switchYear }: YearSwitcherProps) {
     <div className="year-switcher leaflet-top leaflet-right">
       {years.map((year) => (
         <button
+          key={year}
           className={`btn ${selectedYear === year ? "btn-secondary" : "btn-primary"}`}
           onClick={() => switchYear(year)}
         >

@@ -9,8 +9,6 @@
   border-radius: 0;
   border: 2px black solid;
   box-shadow: 8px 8px #213b67;
-
-  z-index: 1000;
 }
 .leaflet-popup-content {
   margin: 0; 
