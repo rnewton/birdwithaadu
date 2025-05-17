@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import { renderToString } from "react-dom/server";
 import L from "leaflet";
 import { useMap, Marker as LM } from "react-leaflet";
@@ -24,13 +25,26 @@ L.Marker.prototype.options.icon = DefaultIcon;
 type MarkerProps = {
   children: React.ReactNode;
   positionKey: string;
+  setMarkers: React.Dispatch<React.SetStateAction<Map<string, L.Marker>>>;
 };
 
-function Marker({ children, positionKey }: MarkerProps) {
+function Marker({ children, positionKey, setMarkers }: MarkerProps) {
   const map = useMap();
+
+  const [ref, setRef] = useState<L.Marker | null>(null);
+  useEffect(() => {
+    if (ref) {
+      setMarkers((prev) => {
+        const newMarkers = new Map(prev);
+        newMarkers.set(positionKey, ref);
+        return newMarkers;
+      })
+    }
+  }, [ref, positionKey, setMarkers]);
 
   return (
     <LM
+      ref={setRef}
       position={keysToLatLon(positionKey)}
       eventHandlers={{
         click: (e) => {

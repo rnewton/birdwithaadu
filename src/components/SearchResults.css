@@ -1,0 +1,26 @@
+.search-results {
+  position: absolute;
+  top: 80px;
+  left: 63px;
+  
+  width: 300px;
+  max-height: 50vh;
+
+  z-index: 1001;
+  visibility: visible;
+  opacity: 1 !important;
+}
+.result {
+  border: none;
+  border-radius: 0;
+
+  text-align: left;
+  color: var(--color-secondary);
+}
+.result:hover {
+  background-color: #f7f7f7;
+  cursor: pointer;
+}
+.result.hidden {
+  visibility: hidden;
+}

@@ -1,4 +1,4 @@
-id,Country,State,County,unit,firstSeen,commonName,scientificName,totalSeen,notes,ChecklistComments,Locations,UTM1,UTM2,lon,lat,ebirdURL
+id,country,state,County,unit,firstSeen,commonName,scientificName,totalSeen,notes,ChecklistComments,locations,UTM1,UTM2,lon,lat,ebirdURL
 1,GU,NA,,1,2021,Micronesian Starling,Aplonis opaca,2,,,Andersen Base,-12846318.289778,10898887.1464106,144.933048119028,13.5759001453562,https://ebird.org/species/micsta1
 2,GU,NA,,1,2021,White Tern,Gygis alba,3,,,Andersen Base,-12846318.289778,10898887.1464106,144.933048119028,13.5759001453562,https://ebird.org/species/whiter
 3,GU,NA,,2,2021,Red Junglefowl,Gallus gallus,6,,,Potts Junction,-12836424.8630073,10925836.610913,144.868451600534,13.5894198372925,https://ebird.org/species/redjun

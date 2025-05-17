@@ -1,7 +1,7 @@
 export type Observation = {
   id: number;
-  // Country: string;
-  // State: string;
+  country: string;
+  state: string;
   // County: string;
   unit: string;
   firstSeen: number;
@@ -10,7 +10,7 @@ export type Observation = {
   totalSeen: number;
   notes: string;
   // ChecklistComments: string;
-  // Locations: string;
+  locations: string;
   lon: number;
   lat: number;
   ebirdURL: string;

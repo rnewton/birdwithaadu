@@ -6,3 +6,9 @@
   overflow-y: auto;
   overflow-x: hidden;
 }
+.observations .header {
+  margin: 0.5rem;
+  
+  font-size: 1rem;
+  font-weight: 700;
+}

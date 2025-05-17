@@ -4,32 +4,47 @@ type ObservationProps = {
   commonName: string;
   scientificName: string;
   firstSeen: number;
-  totalSeen: number;
-  notes: string;
-  images: string[];
-  ebirdURL: string;
+  totalSeen?: number;
+  notes?: string;
+  images?: string[];
+  ebirdURL?: string;
+  showYear?: boolean;
+  showLocation?: boolean;
 };
 
 function Observation({
   commonName,
   scientificName,
+  firstSeen,
   totalSeen,
   notes,
   ebirdURL,
+  showYear = false,
+  showLocation = false,
 }: ObservationProps) {
   return (
     <div className="observation">
       <div>
         <h2 className="common-name">
-          <a href={ebirdURL} target="_blank" rel="nofollow,noreferrer">
+          {ebirdURL ? (<a href={ebirdURL} target="_blank" rel="nofollow,noreferrer">
             {commonName}
-          </a>
-          <span
+          </a>) : commonName}
+          {totalSeen && (<span
             className="badge badge-outline badge-secondary"
             title="Total observed"
           >
             {totalSeen}
-          </span>
+          </span>)}
+          {showYear && (
+            <span className="badge badge-outline badge-secondary">
+              {firstSeen}
+            </span>
+          )}
+          {showLocation && (
+            <span className="badge badge-outline badge-secondary">
+              location tk
+            </span>
+          )}
         </h2>
         <span className="sci-name">{scientificName}</span>
       </div>
