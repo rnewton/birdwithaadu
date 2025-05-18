@@ -17,10 +17,10 @@ import {
   TILE_ATTRIBUTION,
   TILE_URL,
 } from "./constants";
+import { latLonKey, Observation } from "./types";
 
 import "leaflet/dist/leaflet.css";
 import "./App.css";
-import { latLonKey } from "./types";
 
 function App() {
   // Fetch the csv data once during the first render
@@ -37,7 +37,7 @@ function App() {
   }, [query]);
 
   const [markers, setMarkers] = useState<Map<string, L.Marker>>(new Map());
-
+  const [selectedMarker, setSelectedMarker] = useState<string | null>(null);
   const [map, setMap] = useState<MapRef>(null);
   const mapDisplay = useMemo(
     () => (
@@ -65,6 +65,29 @@ function App() {
     [data, year]
   );
 
+  const showSearchResult = (observation: Observation) => {
+    selectYear(observation.firstSeen);
+    map?.flyTo(
+      [observation.lat, observation.lon],
+      DEFAULT_ZOOM,
+      DEFAULT_ANIMATION_OPTIONS
+    );
+
+    setShowResults(false);
+
+    const key = latLonKey(observation.lat, observation.lon);
+    setSelectedMarker(key);
+  }
+
+  useEffect(() => {
+    if (selectedMarker) {
+      const marker = markers.get(selectedMarker);
+      if (marker) {
+        marker.openPopup();
+      }
+    }
+  }, [markers, selectedMarker]);
+
   return (
     <>
       {map ? (
@@ -78,19 +101,7 @@ function App() {
             visible={showResults}
             query={query}
             data={data}
-            onClick={(observation) => {
-              selectYear(observation.firstSeen);
-              map?.flyTo(
-                [observation.lat, observation.lon],
-                DEFAULT_ZOOM,
-                DEFAULT_ANIMATION_OPTIONS
-              );
-
-              const key = latLonKey(observation.lat, observation.lon);
-              markers.get(key)?.openPopup();
-
-              setShowResults(false);
-            }}
+            onClick={showSearchResult}
           />
           <YearSwitcher
             map={map}
