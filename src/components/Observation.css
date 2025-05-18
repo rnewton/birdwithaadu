@@ -13,12 +13,17 @@
   font-weight: 600;
   margin-bottom: 0;
 }
-.common-name span {
+.common-name .badge {
   margin-left: 0.5rem;
   font-size: 0.8rem;
   font-weight: 800;
   vertical-align: bottom;
 }
+
+.highlight {
+  background-color: palegoldenrod;
+}
+
 .sci-name, .location, .firstSeen {
   display: block;
 

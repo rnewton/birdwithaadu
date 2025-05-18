@@ -24,3 +24,7 @@
 .result.hidden {
   visibility: hidden;
 }
+
+.no-observations {
+  padding: 1rem;
+}

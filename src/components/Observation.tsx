@@ -1,4 +1,8 @@
+import { HighlightRanges } from "@nozbe/microfuzz";
+import { Highlight } from "@nozbe/microfuzz/react";
+
 import { formatLocations } from "../types";
+
 import "./Observation.css";
 
 type ObservationProps = {
@@ -12,6 +16,7 @@ type ObservationProps = {
   locations?: string;
   showYear?: boolean;
   showLocations?: boolean;
+  highlighted?: HighlightRanges | null;
 };
 
 function Observation({
@@ -24,6 +29,7 @@ function Observation({
   locations,
   showYear = false,
   showLocations = false,
+  highlighted = null,
 }: ObservationProps) {
   return (
     <div className="observation">
@@ -33,9 +39,9 @@ function Observation({
             <a href={ebirdURL} target="_blank" rel="nofollow,noreferrer">
               {commonName}
             </a>
-          ) : (
-            commonName
-          )}
+          ) : 
+            commonName 
+          }
           {totalSeen && (
             <span
               className="badge badge-outline badge-secondary"
@@ -45,16 +51,18 @@ function Observation({
             </span>
           )}
         </h2>
-        <span className="sci-name">{scientificName}</span>
+        <span className="sci-name">
+          <Highlight
+            ranges={highlighted}
+            text={scientificName}
+            className={"highlight"}
+          />
+        </span>
         {showYear && firstSeen && (
-          <span className="firstSeen">
-            {firstSeen}
-          </span>
+          <span className="firstSeen">{firstSeen}</span>
         )}
         {showLocations && locations && (
-          <span className="location">
-            {formatLocations(locations)}
-          </span>
+          <span className="location">{formatLocations(locations)}</span>
         )}
       </div>
       <div className="stats">
