@@ -27,7 +27,9 @@ export const keysToLatLon = (key: string): LatLon => {
   return [lat, lon];
 };
 
-export const formatLocations = (locations: string): string => {
+export const formatLocations = (locations: string | null): string => {
+  if (!locations) return "";
+
   const parts = new Set(locations.split(";"));
 
   // Remove anything that looks like lat/long
