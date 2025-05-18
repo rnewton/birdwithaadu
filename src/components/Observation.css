@@ -19,10 +19,17 @@
   font-weight: 800;
   vertical-align: bottom;
 }
-.sci-name {
+.sci-name, .location, .firstSeen {
+  display: block;
+
+  padding-left: 0.5rem;
+
   font-size: 0.8rem;
   font-weight: 200;
-  padding-left: 0.5rem;
+  line-height: 1.2rem;
+}
+.firstSeen {
+  font-weight: 600;
 }
 .stats {
   margin-top: 0.5rem;

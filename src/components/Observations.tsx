@@ -1,4 +1,4 @@
-import { Observation as ObservationType } from "../types";
+import { formatLocations, Observation as ObservationType } from "../types";
 import Observation from './Observation';
 
 import "./Observations.css";
@@ -22,20 +22,6 @@ function Observations({ observations }: ObservationsProps) {
       ))}
     </div>
   );
-}
-
-function formatLocations(locations: string): string {
-  const parts = new Set(locations.split(";"));
-
-  // Remove anything that looks like lat/long
-  const latLonRegex = /\(?-?\d{1,3}\.\d{4,},?\)?/g;
-
-  const formatted = Array.from(parts)
-    .map((part) => part.replace(latLonRegex, "").replace("Auto selected", "Incidental").trim())
-    .filter((part) => part.length > 0)
-    .join(", ");
-
-  return formatted;
 }
 
 export default Observations;

@@ -45,6 +45,9 @@ function SearchResults({ visible, query, data, onClick }: SearchResultsProps) {
                     commonName={observation.commonName}
                     scientificName={observation.scientificName}
                     firstSeen={observation.firstSeen}
+                    locations={observation.locations}
+                    showLocations
+                    showYear
                   />
                 </button>
               ))}
