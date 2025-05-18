@@ -2669,59 +2669,59 @@ id,country,state,County,unit,firstSeen,commonName,scientificName,totalSeen,notes
 2668,US,WA,King,131,2024,Hooded Merganser,Lophodytes cucullatus,1,,,Tradition Plateau,575556.527099986,5264495.99420603,-121.9962054,47.5294956,https://ebird.org/species/hoomer
 2669,US,WA,King,131,2024,Pacific Wren,Troglodytes pacificus,7,,,Tradition Plateau,575556.527099986,5264495.99420603,-121.9962054,47.5294956,https://ebird.org/species/pacwre1
 2670,US,WA,King,131,2024,Ruby-crowned Kinglet,Corthylio calendula,1,,,Tradition Plateau,575556.527099986,5264495.99420603,-121.9962054,47.5294956,https://ebird.org/species/ruckin
-2671,US,CA,Santa Clara,132,2020,American Crow,Corvus brachyrhynchos,3,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/amecro
-2672,US,CA,Santa Clara,132,2020,American Goldfinch,Spinus tristis,3,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/amegfi
-2673,US,CA,Santa Clara,132,2020,Anna's Hummingbird,Calypte anna,3,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/annhum
-2674,US,CA,Santa Clara,132,2020,Black Phoebe,Sayornis nigricans,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/blkpho
-2675,US,CA,Santa Clara,132,2020,California Scrub-Jay,Aphelocoma californica,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/cowscj1
-2676,US,CA,Santa Clara,132,2020,Cedar Waxwing,Bombycilla cedrorum,12,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/cedwax
-2677,US,CA,Santa Clara,132,2020,Chestnut-backed Chickadee,Poecile rufescens,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/chbchi
-2678,US,CA,Santa Clara,132,2020,Dark-eyed Junco,Junco hyemalis,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/daejun
-2679,US,CA,Santa Clara,132,2020,House Finch,Haemorhous mexicanus,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/houfin
-2680,US,CA,Santa Clara,132,2020,Northern Mockingbird,Mimus polyglottos,4,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/normoc
-2681,US,CA,Santa Clara,132,2020,Pine Siskin,Spinus pinus,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/pinsis
-2682,US,CA,Santa Clara,132,2020,Say's Phoebe,Sayornis saya,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/saypho
-2683,US,CA,Santa Clara,132,2020,White-crowned Sparrow,Zonotrichia leucophrys,3,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/whcspa
-2684,US,CA,Santa Clara,132,2020,Yellow-rumped Warbler,Setophaga coronata,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/yerwar
+2671,US,CA,Santa Clara,132,2020,American Crow,Corvus brachyrhynchos,3,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/amecro
+2672,US,CA,Santa Clara,132,2020,American Goldfinch,Spinus tristis,3,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/amegfi
+2673,US,CA,Santa Clara,132,2020,Anna's Hummingbird,Calypte anna,3,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/annhum
+2674,US,CA,Santa Clara,132,2020,Black Phoebe,Sayornis nigricans,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/blkpho
+2675,US,CA,Santa Clara,132,2020,California Scrub-Jay,Aphelocoma californica,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/cowscj1
+2676,US,CA,Santa Clara,132,2020,Cedar Waxwing,Bombycilla cedrorum,12,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/cedwax
+2677,US,CA,Santa Clara,132,2020,Chestnut-backed Chickadee,Poecile rufescens,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/chbchi
+2678,US,CA,Santa Clara,132,2020,Dark-eyed Junco,Junco hyemalis,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/daejun
+2679,US,CA,Santa Clara,132,2020,House Finch,Haemorhous mexicanus,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/houfin
+2680,US,CA,Santa Clara,132,2020,Northern Mockingbird,Mimus polyglottos,4,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/normoc
+2681,US,CA,Santa Clara,132,2020,Pine Siskin,Spinus pinus,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/pinsis
+2682,US,CA,Santa Clara,132,2020,Say's Phoebe,Sayornis saya,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/saypho
+2683,US,CA,Santa Clara,132,2020,White-crowned Sparrow,Zonotrichia leucophrys,3,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/whcspa
+2684,US,CA,Santa Clara,132,2020,Yellow-rumped Warbler,Setophaga coronata,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/yerwar
 2685,US,CA,Santa Clara,132,2021,Northern Rough-winged Swallow,Stelgidopteryx serripennis,1,,,"CA-85 S, Saratoga US-CA 37.27432, -122.00298",588392.237648376,4125769.97305152,-122.002982,37.274319,https://ebird.org/species/nrwswa
-2686,US,CA,Santa Clara,132,2021,Red-breasted Nuthatch,Sitta canadensis,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/rebnut
-2687,US,CA,Santa Clara,132,2022,Acorn Woodpecker,Melanerpes formicivorus,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/acowoo
-2688,US,CA,Santa Clara,132,2022,American Crow,Corvus brachyrhynchos,20,,,Parent's House;Parent's House;Parent's House;Parent's House;Parent's House;Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/amecro
-2689,US,CA,Santa Clara,132,2022,Anna's Hummingbird,Calypte anna,5,,,Parent's House;Parent's House;Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/annhum
-2690,US,CA,Santa Clara,132,2022,Band-tailed Pigeon,Patagioenas fasciata,8,,,Parent's House;Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/batpig1
-2691,US,CA,Santa Clara,132,2022,Bewick's Wren,Thryomanes bewickii,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/bewwre
-2692,US,CA,Santa Clara,132,2022,Brown Creeper,Certhia americana,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/brncre
-2693,US,CA,Santa Clara,132,2022,Bullock's Oriole,Icterus bullockii,2,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/bulori
-2694,US,CA,Santa Clara,132,2022,Bushtit,Psaltriparus minimus,6,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/bushti
-2695,US,CA,Santa Clara,132,2022,California Scrub-Jay,Aphelocoma californica,17,,,Parent's House;Parent's House;Parent's House;Parent's House;Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/cowscj1
-2696,US,CA,Santa Clara,132,2022,California Towhee,Melozone crissalis,4,,,Parent's House;Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/caltow
-2697,US,CA,Santa Clara,132,2022,Common Raven,Corvus corax,3,,,Parent's House;Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/comrav
-2698,US,CA,Santa Clara,132,2022,Dark-eyed Junco,Junco hyemalis,7,,,Parent's House;Parent's House;Parent's House;Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/daejun
-2699,US,CA,Santa Clara,132,2022,Hooded Oriole,Icterus cucullatus,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/hooori
-2700,US,CA,Santa Clara,132,2022,House Finch,Haemorhous mexicanus,2,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/houfin
-2701,US,CA,Santa Clara,132,2022,Lesser Goldfinch,Spinus psaltria,9,,,Parent's House;Parent's House;Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/lesgol
-2702,US,CA,Santa Clara,132,2022,Mourning Dove,Zenaida macroura,13,,,Parent's House;Parent's House;Parent's House;Parent's House;Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/moudov
-2703,US,CA,Santa Clara,132,2022,Northern Mockingbird,Mimus polyglottos,4,,,Parent's House;Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/normoc
-2704,US,CA,Santa Clara,132,2022,Violet-green Swallow,Tachycineta thalassina,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/vigswa
-2705,US,CA,Santa Clara,132,2022,Western Bluebird,Sialia mexicana,2,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/wesblu
-2706,US,CA,Santa Clara,132,2022,Western Tanager,Piranga ludoviciana,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/westan
-2707,US,CA,Santa Clara,132,2022,White-breasted Nuthatch,Sitta carolinensis,2,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/whbnut
-2708,US,CA,Santa Clara,132,2024,American Crow,Corvus brachyrhynchos,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/amecro
-2709,US,CA,Santa Clara,132,2024,Anna's Hummingbird,Calypte anna,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/annhum
-2710,US,CA,Santa Clara,132,2024,Bewick's Wren,Thryomanes bewickii,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/bewwre
-2711,US,CA,Santa Clara,132,2024,Bullock's Oriole,Icterus bullockii,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/bulori
-2712,US,CA,Santa Clara,132,2024,Bushtit,Psaltriparus minimus,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/bushti
-2713,US,CA,Santa Clara,132,2024,California Scrub-Jay,Aphelocoma californica,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/cowscj1
-2714,US,CA,Santa Clara,132,2024,Chestnut-backed Chickadee,Poecile rufescens,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/chbchi
-2715,US,CA,Santa Clara,132,2024,Dark-eyed Junco,Junco hyemalis,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/daejun
-2716,US,CA,Santa Clara,132,2024,Great Horned Owl,Bubo virginianus,1,h.o,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/grhowl
-2717,US,CA,Santa Clara,132,2024,House Finch,Haemorhous mexicanus,2,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/houfin
-2718,US,CA,Santa Clara,132,2024,Lesser Goldfinch,Spinus psaltria,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/lesgol
-2719,US,CA,Santa Clara,132,2024,Mourning Dove,Zenaida macroura,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/moudov
-2720,US,CA,Santa Clara,132,2024,Northern Mockingbird,Mimus polyglottos,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/normoc
-2721,US,CA,Santa Clara,132,2024,Oak Titmouse,Baeolophus inornatus,2,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/oaktit
-2722,US,CA,Santa Clara,132,2024,Spotted Towhee,Pipilo maculatus,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/spotow
-2723,US,CA,Santa Clara,132,2024,White-breasted Nuthatch,Sitta carolinensis,1,,,Parent's House,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/whbnut
+2686,US,CA,Santa Clara,132,2021,Red-breasted Nuthatch,Sitta canadensis,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/rebnut
+2687,US,CA,Santa Clara,132,2022,Acorn Woodpecker,Melanerpes formicivorus,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/acowoo
+2688,US,CA,Santa Clara,132,2022,American Crow,Corvus brachyrhynchos,20,,,Saratoga;Saratoga;Saratoga;Saratoga;Saratoga;Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/amecro
+2689,US,CA,Santa Clara,132,2022,Anna's Hummingbird,Calypte anna,5,,,Saratoga;Saratoga;Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/annhum
+2690,US,CA,Santa Clara,132,2022,Band-tailed Pigeon,Patagioenas fasciata,8,,,Saratoga;Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/batpig1
+2691,US,CA,Santa Clara,132,2022,Bewick's Wren,Thryomanes bewickii,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/bewwre
+2692,US,CA,Santa Clara,132,2022,Brown Creeper,Certhia americana,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/brncre
+2693,US,CA,Santa Clara,132,2022,Bullock's Oriole,Icterus bullockii,2,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/bulori
+2694,US,CA,Santa Clara,132,2022,Bushtit,Psaltriparus minimus,6,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/bushti
+2695,US,CA,Santa Clara,132,2022,California Scrub-Jay,Aphelocoma californica,17,,,Saratoga;Saratoga;Saratoga;Saratoga;Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/cowscj1
+2696,US,CA,Santa Clara,132,2022,California Towhee,Melozone crissalis,4,,,Saratoga;Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/caltow
+2697,US,CA,Santa Clara,132,2022,Common Raven,Corvus corax,3,,,Saratoga;Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/comrav
+2698,US,CA,Santa Clara,132,2022,Dark-eyed Junco,Junco hyemalis,7,,,Saratoga;Saratoga;Saratoga;Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/daejun
+2699,US,CA,Santa Clara,132,2022,Hooded Oriole,Icterus cucullatus,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/hooori
+2700,US,CA,Santa Clara,132,2022,House Finch,Haemorhous mexicanus,2,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/houfin
+2701,US,CA,Santa Clara,132,2022,Lesser Goldfinch,Spinus psaltria,9,,,Saratoga;Saratoga;Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/lesgol
+2702,US,CA,Santa Clara,132,2022,Mourning Dove,Zenaida macroura,13,,,Saratoga;Saratoga;Saratoga;Saratoga;Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/moudov
+2703,US,CA,Santa Clara,132,2022,Northern Mockingbird,Mimus polyglottos,4,,,Saratoga;Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/normoc
+2704,US,CA,Santa Clara,132,2022,Violet-green Swallow,Tachycineta thalassina,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/vigswa
+2705,US,CA,Santa Clara,132,2022,Western Bluebird,Sialia mexicana,2,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/wesblu
+2706,US,CA,Santa Clara,132,2022,Western Tanager,Piranga ludoviciana,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/westan
+2707,US,CA,Santa Clara,132,2022,White-breasted Nuthatch,Sitta carolinensis,2,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/whbnut
+2708,US,CA,Santa Clara,132,2024,American Crow,Corvus brachyrhynchos,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/amecro
+2709,US,CA,Santa Clara,132,2024,Anna's Hummingbird,Calypte anna,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/annhum
+2710,US,CA,Santa Clara,132,2024,Bewick's Wren,Thryomanes bewickii,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/bewwre
+2711,US,CA,Santa Clara,132,2024,Bullock's Oriole,Icterus bullockii,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/bulori
+2712,US,CA,Santa Clara,132,2024,Bushtit,Psaltriparus minimus,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/bushti
+2713,US,CA,Santa Clara,132,2024,California Scrub-Jay,Aphelocoma californica,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/cowscj1
+2714,US,CA,Santa Clara,132,2024,Chestnut-backed Chickadee,Poecile rufescens,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/chbchi
+2715,US,CA,Santa Clara,132,2024,Dark-eyed Junco,Junco hyemalis,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/daejun
+2716,US,CA,Santa Clara,132,2024,Great Horned Owl,Bubo virginianus,1,h.o,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/grhowl
+2717,US,CA,Santa Clara,132,2024,House Finch,Haemorhous mexicanus,2,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/houfin
+2718,US,CA,Santa Clara,132,2024,Lesser Goldfinch,Spinus psaltria,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/lesgol
+2719,US,CA,Santa Clara,132,2024,Mourning Dove,Zenaida macroura,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/moudov
+2720,US,CA,Santa Clara,132,2024,Northern Mockingbird,Mimus polyglottos,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/normoc
+2721,US,CA,Santa Clara,132,2024,Oak Titmouse,Baeolophus inornatus,2,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/oaktit
+2722,US,CA,Santa Clara,132,2024,Spotted Towhee,Pipilo maculatus,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/spotow
+2723,US,CA,Santa Clara,132,2024,White-breasted Nuthatch,Sitta carolinensis,1,,,Saratoga,586498.750586403,4126195.31297331,-122.0242872,37.2783304,https://ebird.org/species/whbnut
 2724,US,CA,Santa Clara,133,2020,Anna's Hummingbird,Calypte anna,2,,,Fremont Older OSP--Coyote Ridge Trail,582635.973150945,4127843.35752243,-122.067671,37.293535,https://ebird.org/species/annhum
 2725,US,CA,Santa Clara,133,2020,Black Phoebe,Sayornis nigricans,1,,,McClellan Ranch Preserve,583026.343330781,4130125.15321645,-122.0630121,37.3140655,https://ebird.org/species/blkpho
 2726,US,CA,Santa Clara,133,2020,Brown Creeper,Certhia americana,1,,,McClellan Ranch Preserve,583026.343330781,4130125.15321645,-122.0630121,37.3140655,https://ebird.org/species/brncre
