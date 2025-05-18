@@ -23,6 +23,7 @@ function SearchResults({ visible, query, data, onClick }: SearchResultsProps) {
           <div className="observations">
             {Array.from(data.values())
               .flatMap((year) => Array.from(year.values()))
+              .sort((a, b) => b[0].firstSeen - a[0].firstSeen)
               .flat()
               .filter(
                 (observation) =>
